@@ -1,22 +1,30 @@
-/*
- * file - 1-swap.c
- */
+#include<stdio.h>
 
-#include "main.h"
+#include "holberton.h"
 
 /**
- * swap_int - Write a function that swaps the values of two integers.
- * @a: The first integer to be swap.
- * @b: The second integer to be swap.
- */
+ *
+ * *swap_int - swaps the values of two integers.
+ *
+ * *@a: value to be evaluate.
+ *
+ * *@b: value to be evaluate.
+ *
+ * *Return: not.
+ *
+ * */
 
 void swap_int(int *a, int *b)
+
 {
 
-	int c = *a;
 
-	*a = *b;
 
-	*b = c;
+		int n = *a;
+
+			*a = *b;
+
+				*b = n;
+
 }
 
